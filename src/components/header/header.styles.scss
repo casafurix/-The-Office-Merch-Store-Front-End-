@@ -1,0 +1,125 @@
+.nav-menu {
+  display: flex;
+  padding: 1rem;
+
+  a {
+    text-decoration: none;
+    &:focus,
+    &:hover,
+    &:visited {
+      color: black;
+    }
+  }
+
+  // .logo {
+  //   font-size: 1.5rem;
+  // }
+
+  // .logo {
+  //   letter-spacing: 0;
+  // }
+
+  // .logo:hover,
+  // .logo:active {
+  //   letter-spacing: 5px;
+  // }
+
+  // .logo:after,
+  // .logo:before {
+  //   backface-visibility: hidden;
+  //   border: 1px solid rgba(#fff, 0);
+  //   bottom: 0px;
+  //   content: " ";
+  //   display: block;
+  //   margin: 0 auto;
+  //   position: relative;
+  //   transition: all 280ms ease-in-out;
+  //   width: 0;
+  // }
+
+  // .logo:hover:after,
+  // .logo:hover:before {
+  //   backface-visibility: hidden;
+  //   border-color: #fff;
+  //   transition: width 350ms ease-in-out;
+  //   width: 70%;
+  // }
+
+  // .logo:hover:before {
+  //   bottom: auto;
+  //   top: 0;
+  //   width: 70%;
+  // }
+
+  @import url(https://fonts.googleapis.com/css?family=Righteous);
+
+  .logo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .logo {
+    height: 100%;
+  }
+  .logo {
+    text-align: center;
+    // background-color: hsla(230, 40%, 50%, 1);
+  }
+  logo:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    height: 100%;
+  }
+
+  .logo {
+    display: inline-block;
+    color: white;
+    font-family: "Righteous", serif;
+    font-size: 2rem;
+    text-shadow: 0.03em 0.03em 0 hsla(230, 40%, 50%, 1);
+  }
+  .logo:after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: 0.06em;
+    left: 0.06em;
+    z-index: -1;
+    text-shadow: none;
+    background-image: linear-gradient(
+      45deg,
+      transparent 45%,
+      hsla(48, 20%, 90%, 1) 45%,
+      hsla(48, 20%, 90%, 1) 55%,
+      transparent 0
+    );
+    background-size: 0.05em 0.05em;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shad-anim 15s linear infinite;
+  }
+
+  @keyframes shad-anim {
+    0% {
+      background-position: 0 0;
+    }
+    0% {
+      background-position: 100% -100%;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: auto;
+
+    li {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+  }
+}

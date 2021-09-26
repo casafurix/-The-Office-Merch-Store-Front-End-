@@ -1,0 +1,145 @@
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../assets/wp4013881-the-office-wallpapers.jpg") center/cover
+      no-repeat;
+  //   background-image: url("https://i1.wp.com/www.introtodigital.com/wp-content/uploads/2020/05/Content-Marketing-The-Office-Michael-Scott.gif?ssl=1");
+  //   background-size: cover;
+
+  //   height: 100vh;
+  //   padding: 0;
+  //   margin: 0;
+}
+
+// .hero-title {
+//   text-align: auto;
+//   font-size: 3rem;
+// }
+
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+
+// .hero-title {
+//   background: radial-gradient(
+//     circle,
+//     rgba(255, 252, 0, 1) 0%,
+//     rgba(240, 237, 23, 1) 100%
+//   );
+//   height: 100%;
+// }
+
+// .hero-title {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-family: "Luckiest Guy", cursive;
+// }
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  padding: 0;
+  color: white;
+  text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1),
+    -0.03em 0 0 rgba(0, 0, 0, 1);
+  span {
+    transform: scale(0.9);
+    display: inline-block;
+  }
+  span:first-child {
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+      alternate;
+  }
+  span:last-child {
+    animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
+      infinite alternate;
+  }
+}
+
+@keyframes bop {
+  0% {
+    transform: scale(0.9);
+  }
+  50%,
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bopB {
+  0% {
+    transform: scale(0.9);
+  }
+  80%,
+  100% {
+    transform: scale(1) rotateZ(-3deg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-image {
+    font-size: 2.5rem;
+  }
+}
+
+.shop-now-btn {
+  font-family: "Luckiest Guy", cursive;
+  color: #fff;
+  cursor: pointer;
+  // display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+
+  //   @media(min-width: 400px) {
+  //     display: inline-block;
+  //     margin-right: 2.5em;
+
+  //     &:nth-of-type(even) {
+  //       margin-right: 0;
+  //     }
+  //   }
+
+  @media (min-width: 600px) {
+    margin: 0 1em 2em;
+
+    //     &:nth-of-type(even) {
+    //       margin-right: 2.5em;
+    //     }
+
+    //     &:nth-of-type(5) {
+    //       margin-right: 0;
+    //     }
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.shop-now-btn {
+  text-align: center;
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0.5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.shop-now-btn:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
