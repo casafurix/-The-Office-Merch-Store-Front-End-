@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/-The-Office-Merch-Store-Front-End-/static/css/main.8267b82a.chunk.css",
-    "main.js": "/-The-Office-Merch-Store-Front-End-/static/js/main.3ca01219.chunk.js",
-    "main.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/main.3ca01219.chunk.js.map",
+    "main.js": "/-The-Office-Merch-Store-Front-End-/static/js/main.7dfe884b.chunk.js",
+    "main.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/main.7dfe884b.chunk.js.map",
     "runtime-main.js": "/-The-Office-Merch-Store-Front-End-/static/js/runtime-main.34ae4467.js",
     "runtime-main.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/runtime-main.34ae4467.js.map",
-    "static/js/2.d14b9b19.chunk.js": "/-The-Office-Merch-Store-Front-End-/static/js/2.d14b9b19.chunk.js",
-    "static/js/2.d14b9b19.chunk.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/2.d14b9b19.chunk.js.map",
+    "static/js/2.02218802.chunk.js": "/-The-Office-Merch-Store-Front-End-/static/js/2.02218802.chunk.js",
+    "static/js/2.02218802.chunk.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/2.02218802.chunk.js.map",
     "static/js/3.66957e3d.chunk.js": "/-The-Office-Merch-Store-Front-End-/static/js/3.66957e3d.chunk.js",
     "static/js/3.66957e3d.chunk.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/3.66957e3d.chunk.js.map",
     "index.html": "/-The-Office-Merch-Store-Front-End-/index.html",
     "static/css/main.8267b82a.chunk.css.map": "/-The-Office-Merch-Store-Front-End-/static/css/main.8267b82a.chunk.css.map",
-    "static/js/2.d14b9b19.chunk.js.LICENSE.txt": "/-The-Office-Merch-Store-Front-End-/static/js/2.d14b9b19.chunk.js.LICENSE.txt",
+    "static/js/2.02218802.chunk.js.LICENSE.txt": "/-The-Office-Merch-Store-Front-End-/static/js/2.02218802.chunk.js.LICENSE.txt",
     "static/media/61pv_bacdql._sl1000_720x.96d00c7a.jpg": "/-The-Office-Merch-Store-Front-End-/static/media/61pv_bacdql._sl1000_720x.96d00c7a.jpg",
     "static/media/hero.styles.scss": "/-The-Office-Merch-Store-Front-End-/static/media/wp4013881-the-office-wallpapers.0616d6c1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.34ae4467.js",
-    "static/js/2.d14b9b19.chunk.js",
+    "static/js/2.02218802.chunk.js",
     "static/css/main.8267b82a.chunk.css",
-    "static/js/main.3ca01219.chunk.js"
+    "static/js/main.7dfe884b.chunk.js"
   ]
 }
