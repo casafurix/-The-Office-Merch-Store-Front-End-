@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/-The-Office-Merch-Store-Front-end-/static/css/main.1592455a.chunk.css",
-    "main.js": "/-The-Office-Merch-Store-Front-end-/static/js/main.ad127dd1.chunk.js",
-    "main.js.map": "/-The-Office-Merch-Store-Front-end-/static/js/main.ad127dd1.chunk.js.map",
-    "runtime-main.js": "/-The-Office-Merch-Store-Front-end-/static/js/runtime-main.afb943ca.js",
-    "runtime-main.js.map": "/-The-Office-Merch-Store-Front-end-/static/js/runtime-main.afb943ca.js.map",
-    "static/js/2.a7b219c0.chunk.js": "/-The-Office-Merch-Store-Front-end-/static/js/2.a7b219c0.chunk.js",
-    "static/js/2.a7b219c0.chunk.js.map": "/-The-Office-Merch-Store-Front-end-/static/js/2.a7b219c0.chunk.js.map",
-    "static/js/3.66957e3d.chunk.js": "/-The-Office-Merch-Store-Front-end-/static/js/3.66957e3d.chunk.js",
-    "static/js/3.66957e3d.chunk.js.map": "/-The-Office-Merch-Store-Front-end-/static/js/3.66957e3d.chunk.js.map",
-    "index.html": "/-The-Office-Merch-Store-Front-end-/index.html",
-    "static/css/main.1592455a.chunk.css.map": "/-The-Office-Merch-Store-Front-end-/static/css/main.1592455a.chunk.css.map",
-    "static/js/2.a7b219c0.chunk.js.LICENSE.txt": "/-The-Office-Merch-Store-Front-end-/static/js/2.a7b219c0.chunk.js.LICENSE.txt",
-    "static/media/61pv_bacdql._sl1000_720x.96d00c7a.jpg": "/-The-Office-Merch-Store-Front-end-/static/media/61pv_bacdql._sl1000_720x.96d00c7a.jpg",
-    "static/media/hero.styles.scss": "/-The-Office-Merch-Store-Front-end-/static/media/wp4013881-the-office-wallpapers.0616d6c1.jpg"
+    "main.css": "/-The-Office-Merch-Store-Front-End-/static/css/main.8267b82a.chunk.css",
+    "main.js": "/-The-Office-Merch-Store-Front-End-/static/js/main.ad127dd1.chunk.js",
+    "main.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/main.ad127dd1.chunk.js.map",
+    "runtime-main.js": "/-The-Office-Merch-Store-Front-End-/static/js/runtime-main.34ae4467.js",
+    "runtime-main.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/runtime-main.34ae4467.js.map",
+    "static/js/2.a7b219c0.chunk.js": "/-The-Office-Merch-Store-Front-End-/static/js/2.a7b219c0.chunk.js",
+    "static/js/2.a7b219c0.chunk.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/2.a7b219c0.chunk.js.map",
+    "static/js/3.66957e3d.chunk.js": "/-The-Office-Merch-Store-Front-End-/static/js/3.66957e3d.chunk.js",
+    "static/js/3.66957e3d.chunk.js.map": "/-The-Office-Merch-Store-Front-End-/static/js/3.66957e3d.chunk.js.map",
+    "index.html": "/-The-Office-Merch-Store-Front-End-/index.html",
+    "static/css/main.8267b82a.chunk.css.map": "/-The-Office-Merch-Store-Front-End-/static/css/main.8267b82a.chunk.css.map",
+    "static/js/2.a7b219c0.chunk.js.LICENSE.txt": "/-The-Office-Merch-Store-Front-End-/static/js/2.a7b219c0.chunk.js.LICENSE.txt",
+    "static/media/61pv_bacdql._sl1000_720x.96d00c7a.jpg": "/-The-Office-Merch-Store-Front-End-/static/media/61pv_bacdql._sl1000_720x.96d00c7a.jpg",
+    "static/media/hero.styles.scss": "/-The-Office-Merch-Store-Front-End-/static/media/wp4013881-the-office-wallpapers.0616d6c1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.afb943ca.js",
+    "static/js/runtime-main.34ae4467.js",
     "static/js/2.a7b219c0.chunk.js",
-    "static/css/main.1592455a.chunk.css",
+    "static/css/main.8267b82a.chunk.css",
     "static/js/main.ad127dd1.chunk.js"
   ]
 }
