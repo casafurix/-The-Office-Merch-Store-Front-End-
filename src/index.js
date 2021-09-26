@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -12,7 +12,7 @@ import { loadStripe } from "@stripe/stripe-js";
 const stripePromise = loadStripe(process.env.REACT_APP_PUBLISHABLE_KEY);
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <ProductsContextProvider>
       <CartContextProvider>
         <Elements stripe={stripePromise}>
@@ -20,7 +20,7 @@ ReactDOM.render(
         </Elements>
       </CartContextProvider>
     </ProductsContextProvider>
-  </BrowserRouter>,
+  </HashRouter>,
 
   document.getElementById("root")
 );
